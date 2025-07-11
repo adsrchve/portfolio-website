@@ -2,6 +2,10 @@ section {
     height: 100vh;
 }
 
+h1 {
+    text-align: center;
+}
+
 nav {
     overflow: hidden;
     background-color: green;
@@ -10,6 +14,7 @@ nav {
 nav a {
     float:left;
     text-align: center;
+    font-weight: bold;
     color: white;
     padding: 16px;
     text-decoration: none;
@@ -21,10 +26,42 @@ nav a:hover {
     color: black;
 }
 
+img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+figure {
+    display: inline-flex;
+    width: 45%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+figcaption {
+    color: black;
+    font-style: italic;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
 form{
     text-align: center;
 }
 
 input {
     padding: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: green;
+    color: white;
 }

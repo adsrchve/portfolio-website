@@ -31,33 +31,3 @@ Let's Connect on **LinkedIn**!
 
 Or you can find my projects on **Github**.
 > Github: [adsrchve](https://github.com/adsrchve)
-
-
-## Home
-Create a visually appealing home section that introduces who you are.
-Use semantic HTML to structure the content effectively.
-
-
-
-## About Me
-
-
-Write a brief biography that summarizes your education, work experience, skills, and interests.
-Ensure to use appropriate headings, paragraphs, and lists to present the information clearly.
-
-
-## Projects
-Set up a dedicated section for future projects, structuring it with placeholders for project titles, descriptions, and technologies.
-Don't worry if you don't have any projects to showcase yet!
-You can leave this section empty for now, and feel free to update it with future projects as you progress through the program. Your website is meant to grow with you, so make sure to add your achievements and experiences as they come!
-
-
-
-## Contact
-Create a contact section with a placeholder contact form, including fields for name, email, and message.
-Use appropriate form elements and labels to enhance accessibility.
-
-
-Phone: +6282116132003 <br>
-Email: anindyanitisara@gmail.com <br>
-LinkedIn: https://linkedin <br>
