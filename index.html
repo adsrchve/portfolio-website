@@ -4,127 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anindya's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="/images/Signature-initials.jpg">
 </head>
-
-<style>
-    h1 {
-        text-align: center;
-    }
-
-    h2 {
-        text-align: center;
-    }
-
-    nav a {
-        display: inline-block;
-        background-color: pink;
-        text-align: center;
-        color: black;
-        padding: 16px;
-        float: inline-end;
-    }
-
-    nav a:hover {
-        background-color: lightpink;
-    }
-
-    form{
-        text-align: center;
-    }
-</style>
 
 <body>
 
 <!-- Navigation Menu -->
-    <!-- <p style="background-color: yellow;">This is navigation menu</p> -->
-
     <nav>
         <a href="#home">Home</a>
+        <a href="#aboutme">About Me</a>
         <a href="#projects">Projects</a>
+        <a href="#collab">Collaboration</a>
         <a href="#contact">Contact</a>
-        <a href="#about">About</a>
     </nav>
-
-
-<!-- Home-->
-    <!-- <p style="background-color: orange;">This is home menu</p> -->
-
-    <p></p>
-
-<!-- About Me--> 
     <br><br><br>
     <hr>
-    <p style="color: purple;">This is about me</p>
+
     <header>
-
-        <h1>Anindya Nitisara Dwi Sukmawati</h1>
-        <h2>Full Stack Software Engineering</h2>
-
-        <!-- <p title="What will you do after graduate?">This is a title paragraph</p>
-        <p>This is a <br> tag paragraph</p>
-        <p style="color: blue;">well this is just a demo</p> -->
-
-        <!-- <p title='John "ShotGun" Nelson'>John with double quotes</p>
-        <p title="John 'ShotGun' Nelson">John with single quotes</p> -->
-
-        <!-- <a href="https://github.com/adsrchve" target="blank">My Github</a>
-    
-        <img src="/assets/Signature-initials.jpg" alt="Anindya's signature" width="100" height="50"> -->
-    
+        <section id="home">
+            <h1>Anindya's Portfolio</h1>
+            <p>Full Stack Software Engineering</p>
+        </section>
     </header>
-
-    
-    <main>
-
-    </main>
-
-
-    <footer>
-
-    </footer>
-
     <hr>
+
+<!-- Home-->
+    <main>
+        <section id="aboutme">
+            <h2>Hi! I'm Anindya Nitisara.</h2>
+            <img src="assets/anindya.jpg" alt="Anindya Nitisara" style="float: left; width: 200px; height: auto; margin: 20px;">
+            <article>
+                <p>Nice to meet you, friends! &#128075</p>
+                <p>I am a recent graduate from Engineering Physics. I am passionate about learning software engineering</p>
+                <p>This portfolio is a showcase of my projects and aspiration. Thank you for visiting! &#128518;</p>
+            </article>
+        </section>
+        <hr>
+
+<!-- About Me -->
+        <section id="aboutme">
+            <h2>About Me</h2>
+
+            <article>
+                <h3>Education</h3>
+                <p>I am an Engineering Physics graduate.</p>
+
+                <h3>Experiences</h3>
+                <p>I was a project engineer in SKK Migas. I was also a laboratory assistant for 2 years.</p>
+
+                <h3>Skills</h3>
+                <p>My skills is Notion, AutoCAD.</p>
+
+                <h3>Interests</h3>
+                <p>I love learning new things, especially to tech and design.</p>
+            </article>
+        </section>
+        <hr>
 
 <!-- My Projects -->
-    <p style="background-color: greenyellow;">This collections of my projects</p>
-    <hr>
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <p>This section will display my future projects. Stay tuned!</p>
 
-<!-- Contact Me -->
-    <p style="color: red;">This when you need to contact me</p>
-    <h2>Any Question?</h2>
-    <p style="text-align: center;">Feel free to send me a message!</p>
-    
-    <form action="/action_page.php" autocomplete="on">
-        <label for="name">Full Name</label><br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="email">Email Address</label><br>
-        <input type="email" id="email" email="email" value=""><br>
-        <label for="message">Your Message</label><br>
-        <textarea name="message" id="message"></textarea>
-        <input type="submit" value="Submit">
-    </form>
-    
-    
-    <h3>Contact Me</h3>
+            <article>
+                <h3>Project Title</h3>
+                <p>[Coming Soon]</p>
+            </article>
+        </section>
+        <hr>
 
+<!-- Message -->
+        <section id="collab">
+            <h2>Let's Connect!</h2>
+            <p>I'm open to collaborate on new project. Feel free to send me a message (smile emoji).</p>
+            
+            <form action="/submit.html" method="get" id="messagesform">
+            <legend>Send me your message here!</legend>
+                <label id="name-label" for="name">Full Name</label><br>
+                <input id="name" type="text" name="name" placeholder="Your Full Name" required/><br><br>
 
+                <label id="email-label" for="email">Email Address</label><br>
+                <input id="email" type="email" id="email" email="email" placeholder="Your Email" required/><br><br>
+                
+                <label id="message-label" for="message">Any questions?</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here" cols="30" rows="5"></textarea><br>
 
+                <input type="submit" value="Submit" id="submit"/>
+                <input type="reset" value="Reset" id="reset"/>
+            </form>
+        </section>
+        
+        <!-- <pre>
+            Phone       : +6282116xxxxxx <br>
+            Email       : <a href="mailto:anindyanitisara@gmail.com">anindyanitisara@gmail.com</a><br>
+            Instagram   : anindyanitisaraa <br>
+            LinkedIn    : <a href="www.linkedin.com/in/anindya-nitisara">Anindya Nitisara Dwi Sukmawati</a><br>
+        </pre> -->
 
-    <pre>
-        Phone       : +6282116xxxxxx <br>
-        Email       : <a href="mailto:anindyanitisara@gmail.com">anindyanitisara@gmail.com</a><br>
-        Instagram   : anindyanitisaraa <br>
-        LinkedIn    : <a href="www.linkedin.com/in/anindya-nitisara">Anindya Nitisara Dwi Sukmawati</a> <br>
-    </pre>
-
-    <p>        
-        Phone       : +6282116xxxxxx <br>
-        Email       : anindyanitisara@gmail.com <br>
-        Instagram   : anindyanitisaraa <br>
-        LinkedIn    : <a href="www.linkedin.com/in/anindya-nitisara">Anindya Nitisara Dwi Sukmawati</a> <br>
-    </p>
-    <hr>
-
+        <footer>
+            <section id="contact">
+                <p><b>Contact Me</b></p>
+                Email    : <a href="mailto:anindyanitisara@gmail.com">anindyanitisara@gmail.com</a><br>
+                LinkedIn : <a href="https://linkedin.com/in/anindya-nitisara">Anindya Nitisara Dwi Sukmawati</a><br>
+                Github   : <a href="https://github.com/adsrchve">adsrchve</a>
+            </section>
+        </footer>
+        <hr>
+    </main>
 </body>
 </html>

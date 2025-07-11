@@ -1,0 +1,30 @@
+section {
+    height: 100vh;
+}
+
+nav {
+    overflow: hidden;
+    background-color: green;
+}
+
+nav a {
+    float:left;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+form{
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+}
