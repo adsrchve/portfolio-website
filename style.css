@@ -4,6 +4,11 @@
 }
 
 /* General Body Styles */
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -13,10 +18,9 @@ body {
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
     color: #221f3b;
-    scroll-behavior: smooth;
 }
 
-/* Header and Navigation */
+/* Header*/
 header {
     background-color: #221f3b;
     color: #fff;
@@ -40,6 +44,7 @@ header p {
     color: #d4bee4;
 }
 
+/* Navigation Bar */
 nav {
     display: flex;
     align-items: center;
@@ -48,7 +53,6 @@ nav {
     padding-bottom: 1rem;
     overflow: hidden;
     flex-wrap: wrap;
-    scroll-behavior: smooth;
 }
 
 nav a {
@@ -66,6 +70,20 @@ nav a {
 nav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.nav-connect {
+    background-color: #d4bee4;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-connect:hover {
+    background-color: #9b7ebd;
+    color: white;
 }
 
 /* Horizontal Rule  */
@@ -118,11 +136,6 @@ article p {
 }
 
 /* Home Section */
-#home {
-    min-height: calc(100vh - 100px);
-    /* background: linear-gradient(to bottom, #ffffff 0%, #e3f2fd 100%);  */
-}
-
 .home-content {
     display: flex;
     flex-direction: column;
@@ -267,11 +280,7 @@ figcaption {
 }
 
 /* Collaboration Section */
-#collab {
-    background: linear-gradient(to bottom, #e3f2fd 0%, #ffffff 100%);
-}
-
-#collab p {
+#connect p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     color: #555;
@@ -494,10 +503,6 @@ footer {
         margin-right: 0;
         margin-bottom: 10px;
     }
-
-    #contact p {
-        font-size: 2rem;
-    }
 }
 
 @media (max-width: 480px) {
@@ -541,9 +546,4 @@ footer {
         background-position: 0% 50%;
     }
     
-}
-
-
-html, body {
-    overflow-x: hidden;
 }
