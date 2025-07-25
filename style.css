@@ -378,7 +378,7 @@ footer {
 
 #contact {
     padding: 0;
-    min-height: auto;
+    min-height: 200px;
 }
 
 #contact p {
