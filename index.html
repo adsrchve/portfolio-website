@@ -21,20 +21,25 @@
 </head>
 
 <body>
-<!-- Navigation Menu -->
-    <header>    
+    <header>
+<!-- Navigation Menu -->    
         <nav>
-            <a href="#home">Home</a>
-            <a href="#aboutme">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#connect" class="nav-connect">Let's Connect!</a>
+            <p class="name-bar">Anindya Nitisara Dwi Sukmawati</p>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#connect" class="nav-connect">Let's Connect!</a>
+            </div>
         </nav>
         <hr>
-        <h1>Anindya's Portfolio</h1>
-        <p><b>Full Stack Software Engineering</b></p>
+        <section id="hero">
+            <h1>Anindya's Portfolio</h1>
+            <img src="logo.png" alt="[Logo]" class="hero-logo">
+            <p><b>Full Stack Software Engineering</b></p>
+        </section>
     </header>
-    <hr>
 
 <!-- Home-->
     <main>
@@ -150,16 +155,19 @@
             <p>This section will display my future projects. Stay tuned!</p>
 
             <div class="project-grid">
+            <a href="project1.html" class="project-link" method="get">
                 <figure>
                     <img src="project1.jpg" alt="Project 1 Showcase">
                     <figcaption>This is my first project.</figcaption>
                 </figure>
-                
+            </a>
+
+            <a href="project2.html" class="project-link" method="get">
                 <figure>
                     <img src="project2.jpg" alt="Project 2 Showcase">
                     <figcaption>This is my second project.</figcaption>
                 </figure>
-            </div>
+            </a>
         </section>
         <hr>
 
