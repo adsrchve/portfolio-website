@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Rock, Paper, Scissors!</title>
+</head>
+<body>
+    <div class="background">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1>RevoFun</h1>
+            <div class="navigation">
+                <a href="#home">Home</a>
+                <a href="#games">Games</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game">
+            <!-- Game Title -->
+            <div class="title">Rock Paper Scissors</div>
+
+            <!-- Score Display -->
+            <div class="score">
+                <!-- Player Score -->
+                <div class="playerScore">
+                    <h2>Player</h2>
+                    <p class="p-count count">0</p>
+                </div>
+
+                <!-- Computer Score -->
+                <div class="computerScore">
+                    <h2>Computer</h2>
+                    <p class="c-count count">0</p>
+                </div>
+            </div>
+
+            <!-- Movement -->
+            <div class="move">Choose your move</div>
+
+            <!-- Movement Counts -->
+            <div class="movesleft">Moves Left:10</div>
+
+            <!-- Options -->
+            <div class="options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+
+            <!-- Result -->
+            <div class="result"></div>
+
+            <!-- Reload -->
+            <div class="reload"></div>
+        </section>
+
+        <!-- Gameplay -->
+        <script src="../games/rock-paper-scissors.js"></script>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="background">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1>RevoFun</h1>
+            <div class="navigation">
+                <a href="#home">Home</a>
+                <a href="#games">Games</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-container">
+      <div class="card-container">
+        <h1>🎯 Number Guessing Game</h1>
+
+        <p>
+          I'm thinking of a number between 1 and 100. Can you guess it?
+        </p>
+
+        <div id="gameContainer">
+          <div class="input-section">
+            <label for="guessInput">Enter your guess:</label>
+            <div class="input-group">
+              <input
+                id="guessInput"
+                type="number"
+                min="1"
+                max="100"
+                placeholder="1-100"
+              />
+              <button id="submitBtn">Guess!</button>
+            </div>
+          </div>
+
+          <div id="feedback" class="feedback hidden">
+            </div>
+
+          <div class="attempts-counter">
+            <p>
+              Attempts remaining:
+              <span id="attemptsLeft">10</span>
+            </p>
+          </div>
+
+          <div id="previousGuesses" class="previous-guesses hidden">
+            <p class="small-text">Your previous guesses:</p>
+            <div id="guessList" class="guess-list">
+              </div>
+          </div>
+        </div>
+
+        <div id="gameOverContainer" class="game-over hidden">
+          <div id="gameOverMessage">
+            </div>
+          <button id="resetBtn">🎮 Play Again</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../games/number-guessing.js"></script>
+  </body>
+</html>
